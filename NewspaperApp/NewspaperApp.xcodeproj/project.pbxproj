@@ -19,8 +19,18 @@
 		D3481BCA2B128504008954DF /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3481BC82B128504008954DF /* BannerCollectionViewCell.xib */; };
 		D3481BCB2B128FFE008954DF /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33BD0762A71715D00EBD72E /* main.storyboard */; };
 		D3481BCC2B128FFF008954DF /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33BD0762A71715D00EBD72E /* main.storyboard */; };
+		D3481BCE2B12A189008954DF /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3481BCD2B12A189008954DF /* CategoryModel.swift */; };
+		D3481BD42B1B9D9F008954DF /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3481BD32B1B9D9F008954DF /* Posts.swift */; };
+		D3481BD92B1BA0E4008954DF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D3481BD82B1BA0E4008954DF /* SDWebImage */; };
+		D3481BDB2B1BA0E4008954DF /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D3481BDA2B1BA0E4008954DF /* SDWebImageMapKit */; };
+		D3481BDF2B1BA61D008954DF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3481BDD2B1BA61D008954DF /* NewsTableViewCell.swift */; };
+		D3481BE02B1BA61D008954DF /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3481BDE2B1BA61D008954DF /* NewsTableViewCell.xib */; };
 		D358D4CA2A742A7600838031 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D358D4C92A742A7600838031 /* ForgetPasswordViewController.swift */; };
 		D358D4CC2A742DD600838031 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D358D4CB2A742DD600838031 /* ChangePasswordViewController.swift */; };
+		D35DA6A12B216B9900B40BB0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D35DA6A02B216B9900B40BB0 /* Kingfisher */; };
+		D35DA6A32B21715400B40BB0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DA6A22B21715400B40BB0 /* SearchViewController.swift */; };
+		D35DA6A62B2171D000B40BB0 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DA6A42B2171D000B40BB0 /* SearchTableViewCell.swift */; };
+		D35DA6A72B2171D000B40BB0 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35DA6A52B2171D000B40BB0 /* SearchTableViewCell.xib */; };
 		D368B6102A7974AD004A2B52 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D368B60F2A7974AD004A2B52 /* Alamofire */; };
 		D368B6132A7974F0004A2B52 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D368B6122A7974F0004A2B52 /* APIHandler.swift */; };
 		D368B6162A7979F9004A2B52 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D368B6152A7979F9004A2B52 /* AccountModel.swift */; };
@@ -64,8 +74,15 @@
 		D3481BC32B12713B008954DF /* UserInfomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfomationViewController.swift; sourceTree = "<group>"; };
 		D3481BC72B128504008954DF /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		D3481BC82B128504008954DF /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		D3481BCD2B12A189008954DF /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		D3481BD32B1B9D9F008954DF /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		D3481BDD2B1BA61D008954DF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		D3481BDE2B1BA61D008954DF /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		D358D4C92A742A7600838031 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		D358D4CB2A742DD600838031 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		D35DA6A22B21715400B40BB0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D35DA6A42B2171D000B40BB0 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		D35DA6A52B2171D000B40BB0 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		D368B6122A7974F0004A2B52 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		D368B6152A7979F9004A2B52 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 		D3D805212A716B870017152A /* NewspaperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewspaperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,8 +104,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35DA6A12B216B9900B40BB0 /* Kingfisher in Frameworks */,
 				D368B6102A7974AD004A2B52 /* Alamofire in Frameworks */,
+				D3481BDB2B1BA0E4008954DF /* SDWebImageMapKit in Frameworks */,
 				D368B6552A7F92CB004A2B52 /* FacebookCore in Frameworks */,
+				D3481BD92B1BA0E4008954DF /* SDWebImage in Frameworks */,
 				D368B6572A7F92CB004A2B52 /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +140,7 @@
 				D3481BBF2B126F90008954DF /* HomeViewController.swift */,
 				D3481BC12B12710A008954DF /* UploadViewController.swift */,
 				D3481BC32B12713B008954DF /* UserInfomationViewController.swift */,
+				D35DA6A22B21715400B40BB0 /* SearchViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -144,6 +165,7 @@
 		D3481BC52B1284D9008954DF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D3481BDC2B1BA5F9008954DF /* TableViewCell */,
 				D3481BC62B1284E3008954DF /* CollectionViewCell */,
 			);
 			path = View;
@@ -158,6 +180,17 @@
 			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
+		D3481BDC2B1BA5F9008954DF /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D3481BDD2B1BA61D008954DF /* NewsTableViewCell.swift */,
+				D3481BDE2B1BA61D008954DF /* NewsTableViewCell.xib */,
+				D35DA6A42B2171D000B40BB0 /* SearchTableViewCell.swift */,
+				D35DA6A52B2171D000B40BB0 /* SearchTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		D368B6112A7974B7004A2B52 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				D368B6152A7979F9004A2B52 /* AccountModel.swift */,
+				D3481BCD2B12A189008954DF /* CategoryModel.swift */,
+				D3481BD32B1B9D9F008954DF /* Posts.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +285,9 @@
 				D368B60F2A7974AD004A2B52 /* Alamofire */,
 				D368B6542A7F92CB004A2B52 /* FacebookCore */,
 				D368B6562A7F92CB004A2B52 /* FacebookLogin */,
+				D3481BD82B1BA0E4008954DF /* SDWebImage */,
+				D3481BDA2B1BA0E4008954DF /* SDWebImageMapKit */,
+				D35DA6A02B216B9900B40BB0 /* Kingfisher */,
 			);
 			productName = NewspaperApp;
 			productReference = D3D805212A716B870017152A /* NewspaperApp.app */;
@@ -326,6 +364,8 @@
 			packageReferences = (
 				D368B60E2A7974AD004A2B52 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				D368B6532A7F92CB004A2B52 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				D3481BD72B1BA0E4008954DF /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				D35DA69F2B216B9900B40BB0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = D3D805222A716B870017152A /* Products */;
 			projectDirPath = "";
@@ -347,6 +387,8 @@
 				D3D8052E2A716B890017152A /* Assets.xcassets in Resources */,
 				D33BD0772A71715D00EBD72E /* main.storyboard in Resources */,
 				D3481BCA2B128504008954DF /* BannerCollectionViewCell.xib in Resources */,
+				D3481BE02B1BA61D008954DF /* NewsTableViewCell.xib in Resources */,
+				D35DA6A72B2171D000B40BB0 /* SearchTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,17 +419,22 @@
 				D33BD07E2A71924300EBD72E /* SignUpViewController.swift in Sources */,
 				D358D4CC2A742DD600838031 /* ChangePasswordViewController.swift in Sources */,
 				D3481BC92B128504008954DF /* BannerCollectionViewCell.swift in Sources */,
+				D35DA6A32B21715400B40BB0 /* SearchViewController.swift in Sources */,
 				D33BD0752A716E6700EBD72E /* LoginViewController.swift in Sources */,
 				D3D805292A716B870017152A /* ViewController.swift in Sources */,
 				D33BD07A2A7172CF00EBD72E /* ExtensionBackgroundColor.swift in Sources */,
+				D3481BD42B1B9D9F008954DF /* Posts.swift in Sources */,
+				D35DA6A62B2171D000B40BB0 /* SearchTableViewCell.swift in Sources */,
 				D358D4CA2A742A7600838031 /* ForgetPasswordViewController.swift in Sources */,
 				D3481BC42B12713B008954DF /* UserInfomationViewController.swift in Sources */,
 				D3D805252A716B870017152A /* AppDelegate.swift in Sources */,
 				D368B6132A7974F0004A2B52 /* APIHandler.swift in Sources */,
 				D368B6162A7979F9004A2B52 /* AccountModel.swift in Sources */,
 				D31FA9B32A75A4AD0052B13E /* ExtensionInvaildLabelCSS.swift in Sources */,
+				D3481BCE2B12A189008954DF /* CategoryModel.swift in Sources */,
 				D3D805272A716B870017152A /* SceneDelegate.swift in Sources */,
 				D3481BC02B126F90008954DF /* HomeViewController.swift in Sources */,
+				D3481BDF2B1BA61D008954DF /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +608,7 @@
 				INFOPLIST_FILE = NewspaperApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -589,6 +637,7 @@
 				INFOPLIST_FILE = NewspaperApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -719,6 +768,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D3481BD72B1BA0E4008954DF /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D35DA69F2B216B9900B40BB0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 		D368B60E2A7974AD004A2B52 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -738,6 +803,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D3481BD82B1BA0E4008954DF /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3481BD72B1BA0E4008954DF /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		D3481BDA2B1BA0E4008954DF /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3481BD72B1BA0E4008954DF /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		D35DA6A02B216B9900B40BB0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D35DA69F2B216B9900B40BB0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		D368B60F2A7974AD004A2B52 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D368B60E2A7974AD004A2B52 /* XCRemoteSwiftPackageReference "Alamofire" */;

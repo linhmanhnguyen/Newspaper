@@ -33,6 +33,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         Settings.shared.appID = "585645196981146"
         Settings.shared.clientToken = "6acfe649c9d21115f04143dfb8fb72c7"
         
+        
     }
     
     func showError(_ message: String) {
@@ -41,13 +42,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         alert.addAction(okAction)
         present(alert, animated: true, completion: nil)
     }
-    func showSuccess() {
-        let alert = UIAlertController(title: "Thành công", message: "Đăng nhập thành công", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alert.addAction(okAction)
-        present(alert, animated: true, completion: nil)
-    }
-    
+
     func checkAndUpdateButtonState() {
         let isEmailInvalid = !(LoginView.viewWithTag(101)?.isHidden ?? true)
         let isPasswordInvalid = !(LoginView.viewWithTag(102)?.isHidden ?? true)
@@ -98,9 +93,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         apiHandler.loginAccount(email: email, password: password) { (success, account) in
             if success {
                 UserDefaults.standard.setValue(account, forKey: "account")
-                self.showSuccess()
-                print(email)
-                print(password)
+                //self.showSuccess()
             } else {
                 self.showError("Tài khoản hoặc mật khẩu không chính xác")
             }
@@ -123,6 +116,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             return
         }
         callAPILogin(email: email, password: password)
+        let homeScreen = self.storyboard?.instantiateViewController(withIdentifier: "HomeVCIdentifier") as! HomeViewController
+        self.navigationController?.pushViewController(homeScreen, animated: true)
     }
     func fetchFacebookUserProfile() {
         if let token = AccessToken.current, !token.isExpired {
@@ -145,7 +140,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             if let error = error {
                 print("Login with Facebook failed: \(error.localizedDescription)")
             } else if let result = result, !result.isCancelled {
-                self.showSuccess()
+                //self.showSuccess()
                 self.fetchFacebookUserProfile()
             } else {
                 print("Login with Facebook cancelled")

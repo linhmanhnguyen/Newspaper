@@ -14,6 +14,7 @@ class APIHandler{
     let BASE_LOGIN_ACCOUNT = "http://:3300/accounts/login"
     let BASE_CHANGEPASSWORD_ACCOUNT = "http://:3300/accounts/changePassword"
     let BASE_FORGETPASSWORD_ACCOUNT = "http://:3300/accounts/forgotPassword/"
+    let BASE_GET_POSTS_URL = "http://localhost:3300/posts"
     
     func registerAccount(fullName: String, email: String, password: String, completion: @escaping(Bool) -> ()){
         let parameters: [String: Any] = [
@@ -29,7 +30,7 @@ class APIHandler{
             }
         }
     }
-
+    
     func loginAccount(email: String, password: String, completion: @escaping(Bool, [String: Any]?) -> ()){
         let parameters: [String: Any] = [
             "email": email,
@@ -60,7 +61,7 @@ class APIHandler{
             if response.error == nil {
                 completion(true)
             } else {
-               completion(false)
+                completion(false)
             }
         }
     }
@@ -77,6 +78,18 @@ class APIHandler{
             }
         }
     }
+    
+    func getPosts (completion: @escaping (Posts) -> ()) {
+        AF.request("\(BASE_GET_POSTS_URL)", method: .get).responseDecodable(of: Posts.self){
+            (respone) in
+            if let postsResponse = respone.value {
+                completion(postsResponse)
+                print(postsResponse)
+            }
+        }
+    }
+    
+    
 }
 
 

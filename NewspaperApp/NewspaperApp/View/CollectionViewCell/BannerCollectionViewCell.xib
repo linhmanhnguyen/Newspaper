@@ -16,18 +16,14 @@
                 <rect key="frame" x="0.0" y="0.0" width="342" height="180"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iuH-tm-CdZ" userLabel="imgBanner">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="iuH-tm-CdZ" userLabel="imgBanner">
                         <rect key="frame" x="0.0" y="0.0" width="342" height="180"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <constraints>
-                <constraint firstAttribute="bottom" secondItem="iuH-tm-CdZ" secondAttribute="bottom" id="SFv-0k-omr"/>
-                <constraint firstAttribute="trailing" secondItem="iuH-tm-CdZ" secondAttribute="trailing" id="caO-vs-9Uq"/>
-                <constraint firstItem="iuH-tm-CdZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oL8-3S-LZM"/>
-                <constraint firstItem="iuH-tm-CdZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qSE-YZ-RSu"/>
-            </constraints>
+            <color key="backgroundColor" red="0.12549019610000001" green="0.32156862749999998" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <size key="customSize" width="342" height="180"/>
             <connections>
                 <outlet property="imgBanner" destination="iuH-tm-CdZ" id="G9j-2p-VyD"/>
